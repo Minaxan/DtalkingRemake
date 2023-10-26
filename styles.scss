@@ -1,0 +1,47 @@
+@import "./assets/minxin";
+@import "./assets/variables";
+
+// mobile
+@media screen and (width <=375) {
+    .navbar {
+        .navbar-brand {
+            @include paddingLeftNavbar();
+        }
+
+        .offcanvas {
+            @include paddingRightNavbar();
+        }
+    }
+}
+
+// tablet
+@media screen and (width >=376) and (width <=1279) {
+    .navbar {
+        .navbar-brand {
+            padding-left: 100px !important;
+        }
+
+        .offcanvas {
+            padding-right: 100px !important;
+        }
+    }
+}
+
+@media screen and (width >=769px) {
+    .navbar {
+        .navbar-brand {
+            padding-left: 100px !important;
+        }
+
+        .offcanvas {
+            padding-right: 100px !important;
+        }
+
+        .nav-item .nav-link {
+            @include stylesTextBlue();
+            font-size: 20px;
+         }
+    }
+}
+
+

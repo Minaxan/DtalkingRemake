@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <svg xmlns="http://www.w3.org/2000/svg" width="103" height="49" viewBox="0 0 103 49" fill="none">
+                    <g clip-path="url(#clip0_379_7773)">
+                        <path
+                            d="M1.68619 47.8007C1.16736 47.4229 0.756622 46.9321 0.453973 46.3197C0.151324 45.7074 0 45.0472 0 44.3436C0 43.5445 0.19456 42.7888 0.58368 42.0852L20.4288 8.32626H4.53973C3.58855 8.32626 2.76707 7.94841 2.07531 7.19705C1.38354 6.4457 1.03765 5.55102 1.03765 4.51301C1.03765 3.47501 1.38354 2.52387 2.07531 1.79423C2.76707 1.06459 3.58855 0.699768 4.53973 0.699768H26.8493C27.6275 0.699768 28.3409 0.91258 28.9894 1.33386C29.5515 1.71171 29.9838 2.21551 30.2865 2.85395C30.5891 3.48804 30.7405 4.13516 30.7405 4.79532C30.7405 5.59445 30.5459 6.35015 30.1568 7.05373L10.3117 40.8083H27.1735C28.1679 40.8083 28.9981 41.1732 29.6725 41.9028C30.3427 42.6325 30.6756 43.5402 30.6756 44.6216C30.6756 45.703 30.3384 46.5543 29.6725 47.3056C29.0024 48.057 28.1679 48.4348 27.1735 48.4348H3.56693C2.9184 48.4348 2.29148 48.222 1.68619 47.8007Z"
+                            fill="#387ADF" />
+                        <path
+                            d="M96.1256 2.41531C98.2442 3.69218 99.9217 5.45548 101.15 7.70521C102.382 9.95494 103 12.5 103 15.3404C103 18.1808 102.382 20.7258 101.15 22.9756C99.9174 25.2253 98.2399 26.9886 96.1256 28.2655C94.0071 29.5423 91.6724 30.1808 89.1215 30.1808H83.2198V44.3132C83.2198 45.4989 82.8394 46.4935 82.0871 47.297C81.3304 48.1004 80.4311 48.5043 79.3935 48.5043C78.3558 48.5043 77.4046 48.1048 76.6696 47.297C75.9346 46.4935 75.5671 45.4989 75.5671 44.3132V4.6911C75.5671 3.50977 75.9346 2.5152 76.6696 1.70738C77.4046 0.899566 78.3126 0.5 79.3935 0.5H89.1215C91.6724 0.5 94.0071 1.13844 96.1256 2.41531ZM93.5012 20.487C94.7334 19.1363 95.3517 17.4207 95.3517 15.3404C95.3517 13.26 94.7334 11.5402 93.5012 10.1938C92.269 8.84311 90.7428 8.16992 88.9269 8.16992H83.2198V22.5109H88.9269C90.7428 22.5109 92.269 21.8377 93.5012 20.487Z"
+                            fill="#387ADF" />
+                        <path
+                            d="M39.5261 16.5956C41.6704 16.5956 43.4087 14.8494 43.4087 12.6955C43.4087 10.5415 41.6704 8.79535 39.5261 8.79535C37.3818 8.79535 35.6436 10.5415 35.6436 12.6955C35.6436 14.8494 37.3818 16.5956 39.5261 16.5956Z"
+                            fill="#FBE74E" />
+                        <path
+                            d="M66.7817 16.5956C68.926 16.5956 70.6643 14.8494 70.6643 12.6955C70.6643 10.5415 68.926 8.79535 66.7817 8.79535C64.6375 8.79535 62.8992 10.5415 62.8992 12.6955C62.8992 14.8494 64.6375 16.5956 66.7817 16.5956Z"
+                            fill="#FBE74E" />
+                        <path
+                            d="M67.253 24.7823H66.4142C66.4142 24.7823 66.3883 24.7823 66.371 24.7823C64.6805 24.9864 63.3229 26.3024 63.0159 27.9962C63.0159 28.0136 63.0116 28.0353 63.0116 28.0527V30.2937C63.0116 33.7248 62.082 36.4175 60.2229 38.3719C58.3638 40.3263 56.0074 41.3078 53.1539 41.3078C50.3003 41.3078 47.944 40.3306 46.0849 38.3719C44.2257 36.4175 43.2962 33.7248 43.2962 30.2937V28.0657C43.2962 28.0657 43.2962 28.0266 43.2918 28.0092C42.9892 26.3067 41.6316 24.9821 39.9324 24.778C39.9195 24.778 39.9065 24.778 39.8892 24.778H39.0504C39.0504 24.778 39.0245 24.778 39.0072 24.778C37.2994 24.9864 35.9375 26.3198 35.6435 28.0309C35.6435 28.0483 35.6392 28.07 35.6392 28.0874V30.2894C35.6392 34.1156 36.4174 37.3903 37.9739 40.1135C39.5304 42.8409 41.6273 44.9039 44.2646 46.3111C46.902 47.7182 49.8636 48.4218 53.1495 48.4218C56.4354 48.4218 59.3971 47.7182 62.0344 46.3111C64.6718 44.9039 66.7687 42.8366 68.3252 40.1135C69.8817 37.386 70.6599 34.1113 70.6599 30.2894V28.1004C70.6599 28.1004 70.6599 28.0657 70.6556 28.044C70.3703 26.3241 69.004 24.9821 67.2919 24.7736C67.2789 24.7736 67.2659 24.7736 67.2487 24.7736L67.253 24.7823Z"
+                            fill="#F9A732" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_379_7773">
+                            <rect width="103" height="48" fill="white" transform="translate(0 0.5)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tính năng </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-settingLanguage d-flex align-items-center">
+                                <div class="nav-star bg-danger rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 41px; height: 40px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21"
+                                        fill="none">
+                                        <path
+                                            d="M20 8.1781L12.3658 8.1895L9.99618 0.5L7.64414 8.1895L0 8.1781L6.19015 12.8592L3.79229 20.5L10.0008 15.7551L16.2222 20.5L13.819 12.8592L20 8.1781Z"
+                                            fill="#F9CB38" />
+                                    </svg>
+                                </div>
+                                <a class="nav-link" href="#">View</a>
+                                <img src="./img/arrow-down.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ***************************************** -->
+    .<div class="container-fluid">
+        <div class="info">
+            <div class="info-content">
+                <h1>Chào mừng bạn đến với Zup</h1>
+                <p>Hãy để Zup chia sẻ câu chuyện với bạn</p>
+                <button type="button" class="btn btn-primary btn-lg">Get started <img src="./img/arrow-right.svg" alt=""></button>
+                <button type="button" class="btn btn-secondary btn-lg"><img src="./img/video-circle.svg" alt="">Watch video</button>
+                <p>Trải nghiệm Zup với mình nhé</p>
+                <img src="./img/androi.svg" alt="">
+                <img src="./img/appstore.svg" alt="">
+                <p>Hoặc quét mã QR</p>
+                <img src="./img/QR.svg" alt="" srcset="">
+            </div>
+            <div class="info-img">
+                <img src="./img/imgPhoneHome.svg" alt=""> 
+                <img src="./img/bg.svg" alt="">
+                <img src="./img/dotblue.svg" alt="">
+                <img src="./img/dotblue.svg" alt="">
+                <img src="img/dotwhite.svg" alt="">
+                <img src="./img/multiplyblue.svg " alt="">
+                <img src="./img/multiplybluefade.svg " alt="">
+                <img src="./img/multiplywhite.svg    " alt="">       
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

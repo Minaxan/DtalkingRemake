@@ -1,0 +1,33 @@
+@media screen and (width <= 375) {
+  .navbar .navbar-brand {
+    padding-right: 0;
+  }
+  .navbar .offcanvas {
+    padding-right: 0;
+  }
+}
+@media screen and (width >= 376) and (width <= 1279) {
+  .navbar .navbar-brand {
+    padding-left: 100px !important;
+  }
+  .navbar .offcanvas {
+    padding-right: 100px !important;
+  }
+}
+@media screen and (width >= 769px) {
+  .navbar .navbar-brand {
+    padding-left: 100px !important;
+  }
+  .navbar .offcanvas {
+    padding-right: 100px !important;
+  }
+  .navbar .nav-item .nav-link {
+    color: #387ADF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */
