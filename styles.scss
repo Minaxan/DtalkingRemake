@@ -1,6 +1,18 @@
 @import "./assets/minxin";
 @import "./assets/variables";
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 !important;
+}
+
+.info-bgColor {
+    background-color: rgba(232, 249, 255, 1);
+}
+
 // mobile
 @media screen and (width <=375) {
     .navbar {
@@ -40,8 +52,16 @@
         .nav-item .nav-link {
             @include stylesTextBlue();
             font-size: 20px;
-         }
+        }
+    }
+
+    .info {
+        .info-content {
+            padding: 96px 0 0 100px;
+        }
+
+        .info-img {
+            padding: 60px 67px 0 0;
+        }
     }
 }
-
-

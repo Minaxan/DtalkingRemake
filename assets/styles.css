@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+}
+
+.info-bgColor {
+  background-color: rgb(232, 249, 255);
+}
+
 @media screen and (width <= 375) {
   .navbar .navbar-brand {
     padding-right: 0;
@@ -29,5 +41,11 @@
     line-height: 80px;
     /* 125% */
     font-size: 20px;
+  }
+  .info .info-content {
+    padding: 96px 0 0 100px;
+  }
+  .info .info-img {
+    padding: 60px 67px 0 0;
   }
 }/*# sourceMappingURL=styles.css.map */
