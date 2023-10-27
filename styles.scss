@@ -27,7 +27,7 @@ body {
 }
 
 // tablet
-@media screen and (width >=376) and (width <=1279) {
+@media screen and (width >=376) and (width <=768) {
     .navbar {
         .navbar-brand {
             padding-left: 100px !important;
@@ -58,10 +58,93 @@ body {
     .info {
         .info-content {
             padding: 96px 0 0 100px;
+
+            h1 {
+                @include stylesTextBlue();
+                font-size: 64px;
+            }
+
+            #info-content-shareStory {
+                @include stylesTextDark();
+                font-size: 24px;
+            }
+
+            .btn {
+                margin: 40px 0 0 0;
+            }
+
+            .btn-primary {
+                @include stylesTextBtnPrimary();
+                font-size: 24px;
+            }
+
+            #info-content-shareEx {
+                @include stylesTextBlue();
+                font-size: 32px;
+                padding: 91px 0 0 0;
+            }
+
+            #info-content-scanQr {
+                @include stylesTextBlue();
+                font-size: 32px;
+            }
+
         }
 
         .info-img {
             padding: 60px 67px 0 0;
+            position: relative;
+
+            .InfoimgPhone {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+            }
+
+            .InfoimgBg {
+                position: absolute;
+                top: -2em;
+                right: 4em;
+                z-index: 1;
+            }
+
+            .info-dot-blue1 {
+                position: absolute;
+                top: 4em;
+                left: 12em;
+            }
+
+            .info-dot-blue2 {
+                position: absolute;
+                bottom: 8em;
+                right: 10em;
+            }
+
+            .info-dot-white {
+                position: absolute;
+                bottom: 20em;
+                left: 0;
+            }
+
+            .info-multiply--blue1 {
+                position: absolute;
+                top: 21em;
+                left: -3em;
+                z-index: 3;
+            }
+
+            .info-multiply--blue2 {
+                position: absolute;
+                bottom: 16em;
+                right: 2em;
+            }
+
+            .info-multiply--white {
+                position: absolute;
+                left: 19em;
+                top: 12em;
+            }
         }
     }
 }

@@ -18,7 +18,7 @@ body {
     padding-right: 0;
   }
 }
-@media screen and (width >= 376) and (width <= 1279) {
+@media screen and (width >= 376) and (width <= 768) {
   .navbar .navbar-brand {
     padding-left: 100px !important;
   }
@@ -45,7 +45,100 @@ body {
   .info .info-content {
     padding: 96px 0 0 100px;
   }
+  .info .info-content h1 {
+    color: #387ADF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+    font-size: 64px;
+  }
+  .info .info-content #info-content-shareStory {
+    color: #5C5C5C;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 125% */
+    font-size: 24px;
+  }
+  .info .info-content .btn {
+    margin: 40px 0 0 0;
+  }
+  .info .info-content .btn-primary {
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 150% */
+    font-size: 24px;
+  }
+  .info .info-content #info-content-shareEx {
+    color: #387ADF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+    font-size: 32px;
+    padding: 91px 0 0 0;
+  }
+  .info .info-content #info-content-scanQr {
+    color: #387ADF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+    font-size: 32px;
+  }
   .info .info-img {
     padding: 60px 67px 0 0;
+    position: relative;
+  }
+  .info .info-img .InfoimgPhone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .info .info-img .InfoimgBg {
+    position: absolute;
+    top: -2em;
+    right: 4em;
+    z-index: 1;
+  }
+  .info .info-img .info-dot-blue1 {
+    position: absolute;
+    top: 4em;
+    left: 12em;
+  }
+  .info .info-img .info-dot-blue2 {
+    position: absolute;
+    bottom: 8em;
+    right: 10em;
+  }
+  .info .info-img .info-dot-white {
+    position: absolute;
+    bottom: 20em;
+    left: 0;
+  }
+  .info .info-img .info-multiply--blue1 {
+    position: absolute;
+    top: 21em;
+    left: -3em;
+    z-index: 3;
+  }
+  .info .info-img .info-multiply--blue2 {
+    position: absolute;
+    bottom: 16em;
+    right: 2em;
+  }
+  .info .info-img .info-multiply--white {
+    position: absolute;
+    left: 19em;
+    top: 12em;
   }
 }/*# sourceMappingURL=styles.css.map */
